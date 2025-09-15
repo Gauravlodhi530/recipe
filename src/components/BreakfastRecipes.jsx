@@ -5,22 +5,22 @@ const breakfastRecipes = [
   {
     id: 1,
     title: "Masala Dosa Recipe",
-    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/samosa-3.webp?updatedAt=1755248214227",
+    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/6093dc1d77053892307086.jpg?updatedAt=1757929041177",
   },
   {
     id: 2,
     title: "32 Oats Recipes",
-    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/samosa-3.webp?updatedAt=1755248214227",
+    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/oats-chivda-recipes(1).jpg?updatedAt=1757929111017",
   },
   {
     id: 3,
     title: "Rava Dosa Recipe",
-    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/samosa-3.webp?updatedAt=1755248214227",
+    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/Rava-Dosa-Recipe.jpg?updatedAt=1757929185506",
   },
   {
     id: 4,
     title: "Medu Vada Recipe (Garelu)",
-    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/samosa-3.webp?updatedAt=1755248214227",
+    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/22c3b7e9c6aa727c9168656c4e1ac0e6.jpg?updatedAt=1757929245010",
   },
 ];
 

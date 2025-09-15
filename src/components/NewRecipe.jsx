@@ -5,22 +5,22 @@ const recipes = [
   {
     id: 1,
     title: "Gucchi Mushroom Recipe (Morel Mushroom Rice)",
-    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/bhel-puri-recipe-1.webp?updatedAt=1755248214040",
+    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/chickenmorels2-scaled-e1680012817282.webp?updatedAt=1757928645812",
   },
   {
     id: 2,
     title: "Allam Pachadi (Ginger Chutney)",
-    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/bhel-puri-recipe-1.webp?updatedAt=1755248214040",
+    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/R.jpg?updatedAt=1757928730889",
   },
   {
     id: 3,
     title: "Chole Bhature | Chana Bhatura",
-    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/bhel-puri-recipe-1.webp?updatedAt=1755248214040",
+    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/OIP.webp?updatedAt=1757928882121",
   },
   {
     id: 4,
     title: "Ragda Patties Recipe (Mumbai Style Ragda Pattice)",
-    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/bhel-puri-recipe-1.webp?updatedAt=1755248214040",
+    image: "https://ik.imagekit.io/gauravkumar007/recipe-image/image.webp?updatedAt=1757928948242",
   },
 ];
 

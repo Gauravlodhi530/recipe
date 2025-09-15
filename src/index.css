@@ -6,3 +6,14 @@ body{
 ::selection{
     color: red;
 }
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
+  user-select: none;         /* Standard */
+}
+img {
+  -webkit-user-drag: none; /* Chrome/Safari */
+  user-drag: none;         /* Standard */
+  pointer-events: none;    /* (optional) completely blocks interaction */
+}

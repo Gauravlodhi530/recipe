@@ -11,19 +11,19 @@ const PopularRecipes = ({ recipe }) => {
     {
       id: 1,
       title: "Classic Margherita Pizza",
-      img: "https://ik.imagekit.io/gauravkumar007/recipe-image/rava-laddu-recipe.webp?updatedAt=1755248217601",
+      img: "https://ik.imagekit.io/gauravkumar007/recipe-image/photo-1732827095461-db5644590a63.avif?updatedAt=1757928090809",
       des: "Fresh tomatoes, mozzarella & basil.",
     },
     {
       id: 2,
       title: "Creamy Mushroom Pasta",
-      img: "https://ik.imagekit.io/gauravkumar007/recipe-image/rava-laddu-recipe.webp?updatedAt=1755248217601",
+      img: "https://ik.imagekit.io/gauravkumar007/recipe-image/premium_photo-1694850980331-fd0dd7f6617b.avif?updatedAt=1757928299870",
       des: "Rich & creamy Italian pasta.",
     },
     {
       id: 3,
       title: "Avocado Toast Special",
-      img: "https://ik.imagekit.io/gauravkumar007/recipe-image/rava-laddu-recipe.webp?updatedAt=1755248217601",
+      img: "https://ik.imagekit.io/gauravkumar007/recipe-image/photo-1752095809157-9dd2e2dfae8b.avif?updatedAt=1757928391774",
       des: "Healthy breakfast with a twist.",
     },
     {
