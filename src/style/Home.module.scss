@@ -1,0 +1,29 @@
+$preColor: #b8c5c6;
+$secondaryColor: #633b22;
+$textColor: #554c5c;
+$hoverColor: #7c7ca4;
+$otherColor: #ccbc54;
+$bgColor: #dae4ed;
+
+@mixin button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+// button {
+// //   @include button;
+// }
+.section-1 {
+  background-color: #f70505;
+  font-size: 2rem;
+  padding: 2rem;
+
+  h1 {
+    font-size: 3rem;
+    width: 20px;
+    height: 20px;
+  }
+}
