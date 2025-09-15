@@ -1,12 +1,98 @@
-# React + Vite
+# Foodie Recipe Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is **Foodie**, a recipe website built with **React** that lets users create, explore, update, and delete recipes. It uses **Context API** for state management and saves recipes in the **browser’s Local Storage** so your data persists even after refresh.
 
-Currently, two official plugins are available:
+Live Demo: [https://foodie-recipe-website.netlify.app/](https://foodie-recipe-website.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Table of Contents
+1. Features  
+2. Tech Stack  
+3. Installation  
+4. Usage  
+5. Folder Structure  
+6. Contributing  
+7. License  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+- Browse recipes with images and details (ingredients, instructions, etc.)  
+- **Create** new recipes directly in the app  
+- **Update** existing recipes  
+- **Delete** recipes you no longer want  
+- Recipes are saved in **Local Storage** (persist even after page refresh)  
+- Global state management using **React Context API**  
+- Responsive design for desktop and mobile  
+- User-friendly and visually appealing UI  
+
+---
+
+## Tech Stack
+- **React.js** (Frontend)  
+- **Context API** for state management  
+- **Local Storage** for data persistence  
+- **CSS3 / SCSS / Tailwind** (update based on what you used)  
+- **Netlify** for deployment  
+
+---
+
+## Installation
+To run the project locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/YourUserName/foodie-recipe-website.git
+
+# Move into the folder
+cd foodie-recipe-website
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+Then open your browser at:  
+👉 `http://localhost:3000`
+
+---
+
+## Usage
+- Visit the homepage to see all saved recipes  
+- **Create Recipe**: Add a new recipe with title, description, and ingredients  
+- **Update Recipe**: Edit any existing recipe’s details  
+- **Delete Recipe**: Remove unwanted recipes  
+- All recipes are automatically stored in **Local Storage**  
+- Mobile responsive — works on smartphones, tablets, and desktops  
+
+---
+
+## Folder Structure
+```
+foodie-recipe-website/
+│
+├── public/
+│   └── assets/
+│       └── images/
+│
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── context/           # Context API for global state
+│   ├── pages/             # Pages (Home, Create Recipe, etc.)
+│   ├── styles/            # CSS/SCSS files
+│   ├── utils/             # Helper functions
+│   ├── App.js
+│   └── index.js
+│
+├── .gitignore
+├── package.json
+├── README.md
+└── netlify.toml (if any)
+```
+
+
+## License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
